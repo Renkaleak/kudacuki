@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "functions": {
+    "api/webhook.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/webhook",
+      "dest": "/api/webhook.js"
+    }
+  ],
+  "env": {
+    "TELEGRAM_TOKEN": "@telegram_token"
+  }
+}

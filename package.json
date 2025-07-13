@@ -1,0 +1,21 @@
+{
+  "name": "telegram-bot-webhook",
+  "version": "1.0.0",
+  "description": "Telegram bot webhook for online store",
+  "main": "webhook.js",
+  "scripts": {
+    "start": "node webhook.js",
+    "dev": "node webhook.js",
+    "build": "echo 'Build complete'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": ["telegram", "bot", "webhook", "online-store"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

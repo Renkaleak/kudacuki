@@ -1,7 +1,7 @@
 // File: api/webhook.js
 // Deploy ke Vercel untuk webhook bot Telegram
 
-const TELEGRAM_TOKEN = '7971269574:AAGMjJw0wSiwWrr-gIecacWJOT2hQhrmteg';
+const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN || 'YOUR_TELEGRAM_TOKEN_HERE';
 
 // Products data (gunakan database untuk produksi)
 const products = [
